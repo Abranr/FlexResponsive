@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 190px;
+    background: url(../IMG/Soldador)no-repeat;
+    width: 100%;
+    background-size: cover;
+
+}
+
+h1{
+    color: rgb(244, 244, 243);
+    text-align: center;
+    font-size: 7vw;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(230, 219, 16);
+}
+
+nav a{
+    color: rgb(8, 1, 1);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.Menu{
+display: flex;
+flex-wrap: wrap;
+}
+.Columna1{
+    flex: 30%;
+}
+
+.Columna2{
+    flex: 70%;
+}
+
+.Columna1,.Columna2{
+    padding: 20px;
+    background-color: #ffffff;
+}
+.contenedor-imagen{
+    /* background-color: beige; */
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.Foto-perfil{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Habilidades-img{
+    width: 100%;
+}
+
+.Pasatiempo-img{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+}
+
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(194, 192, 192);
+}
+
+@media screen and(max-width: 700px){
+ 
+    .menu{
+        flex-direction: column;
+      }
+  h2{
+    text-align: center;
+  }
+}

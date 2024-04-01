@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 190px;
+    background: url(../IMG/habilidad3)no-repeat;
+    width: 100%;
+    background-size: cover;
+
+}
+
+h1{
+    color: azure;
+    text-align: center;
+    font-size: 7vw;
+}
+
+nav{
+    display: flex;
+    background-color: #8d3c11;
+}
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+}
+
+.columna{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+}
+
+.columna img{
+    margin-top: 8px;
+    width: 100%;
+    vertical-align: middle;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(194, 192, 192);
+}
+@media screen and(max-width: 800px){
+    .columna{
+        flex: 50%;
+        max-width: 50%;
+      
+  }
+}
+
+@media screen and(max-width: 600px){
+    .columna{
+        flex: 100%;
+        max-width: 100%;
+      
+  }
+}
+
+
